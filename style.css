@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.container{
+    width: 80rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 3rem;
+    box-shadow: inset -8px -8px 12px rgba(255,255,255,0.4),
+    inset 8px 8px 12px rgba(0,0,0,0.08);
+}
+
+.clock {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+#time {
+    font-size: 8rem;
+    color: rgb(182, 182, 182);
+    text-shadow: 2px 2px 2px #FFF;
+}
+
+#apm {
+    margin-left: .5rem;
+    font-size: 3rem;
+    color: rgb(182, 182, 182);
+    text-shadow: 2px 2px 2px #FFF;
+}
+
+#date {
+    font-size: 2.5rem;
+        color: rgb(182, 182, 182);
+        text-shadow: 2px 2px 2px #FFF;
+}
+
+@media (max-width: 767px) {
+    .container{
+        width: 20rem;
+        top: 50%;
+        font-family: 'Noto Sans KR', sans-serif;
+        border-radius: 3rem;
+        box-shadow: inset -8px -8px 12px rgba(255,255,255,0.4),
+        inset 8px 8px 12px rgba(0,0,0,0.08);
+    }
+    
+    .clock {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    #time {
+        font-size: 3rem;
+        color: rgb(182, 182, 182);
+        text-shadow: 2px 2px 2px #FFF;
+    }
+    
+    #apm {
+        margin-left: -.1rem;
+        font-size: 1.4rem;
+        color: rgb(182, 182, 182);
+        text-shadow: 2px 2px 2px #FFF;
+    }
+    
+    #date {
+        font-size: 1rem;
+            color: rgb(182, 182, 182);
+            text-shadow: 2px 2px 2px #FFF;
+    }
+    
+}

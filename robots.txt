@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://https://neumoclock.netlify.app/sitemap.xml
